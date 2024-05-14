@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <figure>
+        <img src="./images//bakeryLogo.png" alt="Bakery Logo" class="logo" />
+      </figure>
+      <aside id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+
+        <a href="#freaturedproducts">Featured Products</a>
+        <a href="#customerstories">Customer Stories</a>
+        <a href="#aboutus">About us</a>
+        <a href="#order">Make an Order</a>
+      </aside>
+      <ul class="site-links">
+        <li><a href="#freaturedproducts">Featured Products</a></li>
+        <li><a href="#customerstories">Customer Stories</a></li>
+        <li><a href="#aboutus">About us</a></li>
+        <li><a href="#order">Make an Order</a></li>
+      </ul>
+      <button class="openbtn" onclick="openNav()">☰</button>
+    </nav>
+
+    <section class="hero">
+      <article class="hero-title">
+        <p class="title-1">Meet our host</p>
+        <p class="title-2">ALICE</p>
+      </article>
+      <figure>
+        <img
+          src="./images//host.jpg"
+          alt="Image from the Bakery"
+          class="hero-image"
+        />
+      </figure>
+      <button class="hero-button">Order Now</button>
+    </section>
+
+    <main class="featured-media-reviews">
+      <section class="freatured-products" id="freaturedproducts">
+        <h2 class="main-titles">Featured Products</h2>
+        <article class="products">
+          <figure>
+            <img
+              src="./images/cinnamonRoll.jpg"
+              alt="Cinnamon Roll"
+              class="fp"
+            />
+            <p class="post-description hide">13$</p>
+            <figcaption>Cinnamon Roll</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/chocolate.jpg" alt="Chocolate Cake" class="fp" />
+            <p class="post-description hide">19$</p>
+            <figcaption>Chocolate Cake</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/muffins.jpg" alt="Muffin" class="fp" />
+            <p class="post-description hide">10$</p>
+            <figcaption>Muffins</figcaption>
+          </figure>
+        </article>
+        <h2 class="main-titles">Social Media Posts</h2>
+      </section>
+
+      <section class="social-media-posts">
+        <article>
+          <figure>
+            <img src="./images/instagram.png" alt="instagram logo" />
+          </figure>
+          <figure>
+            <img
+              src="./images/media2.jpg"
+              alt="A Customer post from instagram"
+              class="smp"
+            />
+          </figure>
+          <p class="post-description-title">Daniel's description:</p>
+          <p class="post-description">
+            "Nothing tastes better than Alice's croissants 🥐"
+          </p>
+        </article>
+        <article>
+          <figure>
+            <img src="./images/facebook.png" alt="facebook logo" />
+          </figure>
+          <figure>
+            <img
+              src="./images/media3.png"
+              alt="A Customer post from facebook"
+              class="smp"
+            />
+          </figure>
+          <p class="post-description-title">Steve's post:</p>
+          <p class="post-description">
+            "Designed just the way I regusted. Thank you Alice !"
+          </p>
+        </article>
+        <article>
+          <figure>
+            <img src="./images/twitterx.png" alt="twitter logo" />
+          </figure>
+          <figure>
+            <img
+              src="./images/media4.jpg"
+              alt="A Customer post from twitter"
+              class="smp"
+            />
+          </figure>
+          <p class="post-description-title">Jake's tweet:</p>
+          <p class="post-description">
+            "A must buy item 😍, should have bought more !"
+          </p>
+        </article>
+      </section>
+
+      <section class="reviews">
+        <h2 class="main-titles">Reviews</h2>
+        <h4>Overall rating: ⭐⭐⭐⭐ (1565)</h4>
+        <section class="products">
+          <article class="rw-article">
+            <figure>
+              <img src="./images/person1.jpg" alt="" class="rwimg" />
+              <figcaption>⭐⭐⭐⭐⭐</figcaption>
+            </figure>
+            <p>"The best bakery in town, without a dought."</p>
+          </article>
+          <article class="rw-article">
+            <figure>
+              <img src="./images/person2.jpg" alt="" class="rwimg" />
+              <figcaption>⭐⭐⭐⭐⭐</figcaption>
+            </figure>
+            <p>"Friendly staff, tasty baked goods. Going back for more."</p>
+          </article>
+          <article class="rw-article">
+            <figure>
+              <img src="./images/person3.jpg" alt="" class="rwimg" />
+              <figcaption>⭐⭐⭐⭐⭐</figcaption>
+            </figure>
+            <p>"Simple and effective online ordering with fast delivery."</p>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <section id="customerstories">
+      <section class="customer-stories">
+        <figure>
+          <img
+            src="./images/story.jpg"
+            alt="A person eating a baked good"
+            class="cs-img"
+          />
+        </figure>
+        <article>
+          <p class="story-part">
+            I come here everyday not just for the food but also for the people.
+            The staff members became my friends and we hang out quite often. The
+            best memory i have regarding the bakery is when it was raining cats
+            and dogs outside but Alice didnt want to close shop so people came
+            in for shelter including me and we ended up having the time of out
+            lives, cosy feeling, good food and good company would do that to
+            you.
+          </p>
+        </article>
+      </section>
+      <section class="customer-stories" id="aboutus">
+        <article>
+          <p class="story-part">
+            At our bakery, baking isn't just a craft; it's our calling. Founded
+            by Alice Woodlock, a dedicated baker with a lifelong love affair
+            with pastries and bread, our bakery is a celebration of artisanal
+            techniques and homemade goodness. With a commitment to quality
+            ingredients and time-honored recipes passed down through
+            generations, we take pride in crafting each confection with care and
+            attention to detail. From our signature cakes adorned with delicate
+            icing to our rustic loaves of bread, every bite is a journey through
+            flavors both familiar and new. Come visit us you wont regret it.
+          </p>
+        </article>
+        <figure>
+          <img src="./images/alices.jpg" alt="Alice cooking" class="cs-img" />
+        </figure>
+      </section>
+    </section>
+
+    <form class="order-form" id="order">
+      <h2>Order from our bakery now</h2>
+      <p>call us on: <i>(12) 142 597</i> or order <b>online</b> below</p>
+      <section class="order-section">
+        <label for="fullName">Full Name:</label>
+        <input type="text" name="fullName" id="fullName" />
+        <label for="adress">Adress:</label>
+        <input type="text" name="adress" id="adress" />
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" />
+      </section>
+    </form>
+
+    <footer>
+      <section class="working">
+        <h2>Working hours</h2>
+        <p><b>Monday</b> from 07:00 am - 08:00 pm</p>
+        <p><b>Tuesday</b> from 07:00 am - 08:00 pm</p>
+        <p><b>Wednesday</b> from 07:00 am - 08:00 pm</p>
+        <p><b>Thursday</b> from 07:00 am - 08:00 pm</p>
+        <p><b>Friday</b> from 07:00 am - 10:00 pm</p>
+        <p><b>Saturday</b> from 07:00 am - 10:00 pm</p>
+        <p><b>Sunday Closed</b></p>
+      </section>
+      <section class="footer-links">
+        <p>
+          <a
+            href="https://www.google.com/maps/@41.9759531,21.463361,15z?entry=ttu"
+            target="_blank"
+            >Google Maps</a
+          >
+        </p>
+        <figure>
+          <img src="./images/googleMaps.png" alt="" />
+        </figure>
+        <p>
+          <a href="https://www.instagram.com/" target="_blank"
+            >Follow us on Instagram</a
+          >
+        </p>
+        <figure>
+          <img src="./images/instagram.png" alt="" />
+        </figure>
+        <p>
+          <a href="https://www.facebook.com/" target="_blank"
+            >Find us on Facebook</a
+          >
+        </p>
+        <figure>
+          <img src="./images/facebook.png" alt="" />
+        </figure>
+        <p><a href="#freaturedproducts">Featured Products</a></p>
+      </section>
+    </footer>
+  </body>
+</html>
